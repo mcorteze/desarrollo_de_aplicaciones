@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C7547E1E-5D42-0023-DFBB-2ADC0B26C6AC" name="TIPO_ARBOL">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-08-26 18:21:29 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="0B0C25C0-F5D0-0B27-1D04-68FA1F0F8308" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_tipo_arbol" id="0EB2269A-31F2-7F4C-EE19-220EEC693B66">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-08-26 18:22:17 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="0B0C25C0-F5D0-0B27-1D04-68FA1F0F8308" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="especie" id="E6EC5EBA-4D29-15F8-2CBA-09D331A27C4E">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-08-26 18:23:08 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="0B0C25C0-F5D0-0B27-1D04-68FA1F0F8308" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="variedad" id="47C64ED0-42DB-6E34-2CDD-510DF717805B">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-08-26 18:23:53 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="0B0C25C0-F5D0-0B27-1D04-68FA1F0F8308" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7CE28226-EB03-4F60-5E9E-D5B2509E9B0F" name="TIPO_ARBOL PK">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-08-26 18:22:39 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="0B0C25C0-F5D0-0B27-1D04-68FA1F0F8308" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0EB2269A-31F2-7F4C-EE19-220EEC693B66</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
