@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="231E7D48-06D2-648C-7D08-DCFBA11DD94D" name="SERVICIO_REPUESTO">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-09-17 01:26:54 UTC</createdTime>
+<generatorID>BC284A70-2585-8E71-0734-381AC09FECAA</generatorID>
+<ownerDesignName>modelo6</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SERVICIO_cod_servicio" id="AF0AEAD0-EADC-B4BA-7DF9-FF47F61DA5D9">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-09-17 01:26:54 UTC</createdTime>
+<generatorID>F2AD5219-1E1F-9DDC-4C85-6B1657E3A25E</generatorID>
+<ownerDesignName>modelo6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E2D4DAD4-E7F0-D7A0-64F9-133627632683" referredColumn="19F317EF-B5F0-C58E-B574-F37BBAB9ECEA"/>
+</associations>
+</Column>
+<Column name="REPUESTO_cod_repuesto" id="83E6C17B-91C9-B303-6952-AEE7E0DE4540">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-09-17 01:26:54 UTC</createdTime>
+<generatorID>FBBECFFE-935E-7C00-C71F-DEFFB353D4AE</generatorID>
+<ownerDesignName>modelo6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D26D2E10-1D0C-D25E-25FF-2AC3B3C6678F" referredColumn="7967CCE1-0CD4-2D76-FB53-2FC3DC4C7000"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1BEFA491-9B14-023D-5FE4-6AEBED2A9164" name="SERVICIO_REPUESTO_PK">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-09-17 01:26:54 UTC</createdTime>
+<generatorID>6805BD73-42E0-C355-E647-7874299A5960</generatorID>
+<ownerDesignName>modelo6</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83E6C17B-91C9-B303-6952-AEE7E0DE4540"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="377A6E32-D0BB-8F85-E922-F3A1B2984192" name="SERVICIO_REPUESTO_REPUESTO_FK">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-09-17 01:26:54 UTC</createdTime>
+<generatorID>55C3E462-9996-7234-69D2-72489BB420B4</generatorID>
+<ownerDesignName>modelo6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83E6C17B-91C9-B303-6952-AEE7E0DE4540"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="126F7639-38A5-4F6C-9D3E-3E794407FB7F" name="SERVICIO_REPUESTO_SERVICIO_FK">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-09-17 01:26:54 UTC</createdTime>
+<generatorID>0DEBE8C0-E6F8-3FC0-4988-9A3AC9CA9FCC</generatorID>
+<ownerDesignName>modelo6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF0AEAD0-EADC-B4BA-7DF9-FF47F61DA5D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

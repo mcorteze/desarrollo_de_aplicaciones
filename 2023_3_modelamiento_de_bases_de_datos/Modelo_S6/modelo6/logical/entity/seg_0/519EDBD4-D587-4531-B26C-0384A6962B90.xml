@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="519EDBD4-D587-4531-B26C-0384A6962B90" name="ORDEN_SEGUIMIENTO">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-09-17 01:15:29 UTC</createdTime>
+<ownerDesignName>modelo6</ownerDesignName>
+<engineerTo>
+<item key="476273CC-CDCB-DB8F-93AD-D49C2A19A961" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_orden" id="EE79F3F8-EF6C-49A8-E82A-821282680E2F">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-09-17 01:18:25 UTC</createdTime>
+<generatorID>E2F8B295-521E-2C6E-7646-1A5A80DF6876</generatorID>
+<ownerDesignName>modelo6</ownerDesignName>
+<engineerTo>
+<item key="476273CC-CDCB-DB8F-93AD-D49C2A19A961" value="true"/>
+</engineerTo>
+<referedAttribute>E0E07C59-F992-5826-9F85-74A685F7D65F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_seguimiento" id="813A6576-C308-F8BE-B244-21AA656B4B97">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-09-17 01:18:30 UTC</createdTime>
+<generatorID>1AE18DE5-9343-2F37-F8F9-B95421D8828C</generatorID>
+<ownerDesignName>modelo6</ownerDesignName>
+<engineerTo>
+<item key="476273CC-CDCB-DB8F-93AD-D49C2A19A961" value="true"/>
+</engineerTo>
+<referedAttribute>68BE640F-56EC-092F-6651-4F0CF9AB419C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

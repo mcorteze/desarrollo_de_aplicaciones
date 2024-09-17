@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="861B7BEA-28CA-18DA-97F5-45B3250D21C9" name="VEHICULO">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-09-17 01:08:17 UTC</createdTime>
+<ownerDesignName>modelo6</ownerDesignName>
+<engineerTo>
+<item key="476273CC-CDCB-DB8F-93AD-D49C2A19A961" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="patente" id="6FDC51BF-D0AE-C8C4-61DF-2791130CE7F0">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-09-17 01:08:24 UTC</createdTime>
+<ownerDesignName>modelo6</ownerDesignName>
+<engineerTo>
+<item key="476273CC-CDCB-DB8F-93AD-D49C2A19A961" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="marca" id="48D2B0C2-867A-DA03-2E53-FC36D90A2D40">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-09-17 01:08:47 UTC</createdTime>
+<ownerDesignName>modelo6</ownerDesignName>
+<engineerTo>
+<item key="476273CC-CDCB-DB8F-93AD-D49C2A19A961" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="anio" id="14D43C79-E1EA-BFB7-C55C-6DD3771AF1C0">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-09-17 01:09:07 UTC</createdTime>
+<ownerDesignName>modelo6</ownerDesignName>
+<engineerTo>
+<item key="476273CC-CDCB-DB8F-93AD-D49C2A19A961" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="color" id="05B2B1B8-9A31-D325-5392-5CEE4D68EBD3">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-09-17 01:09:42 UTC</createdTime>
+<ownerDesignName>modelo6</ownerDesignName>
+<engineerTo>
+<item key="476273CC-CDCB-DB8F-93AD-D49C2A19A961" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut" id="A53BD828-1F1A-A0F2-CD9E-63363E98A02E">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-09-17 01:16:31 UTC</createdTime>
+<generatorID>499F7F53-918E-F431-B31B-7AC55635A208</generatorID>
+<ownerDesignName>modelo6</ownerDesignName>
+<engineerTo>
+<item key="476273CC-CDCB-DB8F-93AD-D49C2A19A961" value="true"/>
+</engineerTo>
+<referedAttribute>A4F86355-61DA-CAA1-DA1F-D58D9A041B7F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="37265001-7A22-EB79-75C3-8DAD774E775A" name="VEHICULO PK">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-09-17 01:08:45 UTC</createdTime>
+<ownerDesignName>modelo6</ownerDesignName>
+<engineerTo>
+<item key="476273CC-CDCB-DB8F-93AD-D49C2A19A961" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6FDC51BF-D0AE-C8C4-61DF-2791130CE7F0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

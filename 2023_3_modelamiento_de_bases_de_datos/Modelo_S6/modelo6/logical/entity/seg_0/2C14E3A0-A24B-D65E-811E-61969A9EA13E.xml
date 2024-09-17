@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2C14E3A0-A24B-D65E-811E-61969A9EA13E" name="SEGUIMIENTO">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-09-17 01:14:03 UTC</createdTime>
+<ownerDesignName>modelo6</ownerDesignName>
+<engineerTo>
+<item key="476273CC-CDCB-DB8F-93AD-D49C2A19A961" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_seguimiento" id="68BE640F-56EC-092F-6651-4F0CF9AB419C">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-09-17 01:14:15 UTC</createdTime>
+<ownerDesignName>modelo6</ownerDesignName>
+<engineerTo>
+<item key="476273CC-CDCB-DB8F-93AD-D49C2A19A961" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado_especifico" id="9280644F-4396-151C-FC6C-431028F8D4A7">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-09-17 01:14:52 UTC</createdTime>
+<ownerDesignName>modelo6</ownerDesignName>
+<engineerTo>
+<item key="476273CC-CDCB-DB8F-93AD-D49C2A19A961" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="f_actualizacion" id="0C270335-6498-F6E8-3B1D-DE579D85A5BC">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-09-17 01:15:10 UTC</createdTime>
+<ownerDesignName>modelo6</ownerDesignName>
+<engineerTo>
+<item key="476273CC-CDCB-DB8F-93AD-D49C2A19A961" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6E5F9274-745F-731B-DA0E-3AA6110BA85A" name="SEGUIMIENTO PK">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-09-17 01:14:49 UTC</createdTime>
+<ownerDesignName>modelo6</ownerDesignName>
+<engineerTo>
+<item key="476273CC-CDCB-DB8F-93AD-D49C2A19A961" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>68BE640F-56EC-092F-6651-4F0CF9AB419C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

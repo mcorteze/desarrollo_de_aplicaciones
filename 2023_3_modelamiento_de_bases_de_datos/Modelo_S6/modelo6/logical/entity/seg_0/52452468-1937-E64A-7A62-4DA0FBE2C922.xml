@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="52452468-1937-E64A-7A62-4DA0FBE2C922" name="SERVICIO">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-09-17 01:12:24 UTC</createdTime>
+<ownerDesignName>modelo6</ownerDesignName>
+<engineerTo>
+<item key="476273CC-CDCB-DB8F-93AD-D49C2A19A961" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_servicio" id="0E8D9E24-05F2-07E8-C486-984168223E0E">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-09-17 01:12:31 UTC</createdTime>
+<ownerDesignName>modelo6</ownerDesignName>
+<engineerTo>
+<item key="476273CC-CDCB-DB8F-93AD-D49C2A19A961" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6 BYTE</dataTypeSize>
+<ownDataTypeParameters>6 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="9FAF98B0-4592-4493-98B6-9D2D6B03F75F">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-09-17 01:13:00 UTC</createdTime>
+<ownerDesignName>modelo6</ownerDesignName>
+<engineerTo>
+<item key="476273CC-CDCB-DB8F-93AD-D49C2A19A961" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="7BA3A491-D095-B659-80B1-E7F1C628A25F">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-09-17 01:13:13 UTC</createdTime>
+<ownerDesignName>modelo6</ownerDesignName>
+<engineerTo>
+<item key="476273CC-CDCB-DB8F-93AD-D49C2A19A961" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="costo" id="A1E4FC81-16E1-FE55-8113-FF42607C3AC8">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-09-17 01:13:33 UTC</createdTime>
+<ownerDesignName>modelo6</ownerDesignName>
+<engineerTo>
+<item key="476273CC-CDCB-DB8F-93AD-D49C2A19A961" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7484DCA4-7BFF-D1C8-DB3D-1EA0A052621E" name="SERVICIO PK">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-09-17 01:12:51 UTC</createdTime>
+<ownerDesignName>modelo6</ownerDesignName>
+<engineerTo>
+<item key="476273CC-CDCB-DB8F-93AD-D49C2A19A961" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0E8D9E24-05F2-07E8-C486-984168223E0E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

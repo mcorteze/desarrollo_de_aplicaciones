@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7C259323-BADE-3025-21AF-360F3134CA12" name="ORDEN">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-09-17 01:26:54 UTC</createdTime>
+<generatorID>6BE4003A-AA0A-FFCF-9E6C-E633F24C4475</generatorID>
+<ownerDesignName>modelo6</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_orden" id="D52BE457-3C1F-8F2B-DF92-8FA3728188A5">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-09-17 01:26:54 UTC</createdTime>
+<generatorID>E0E07C59-F992-5826-9F85-74A685F7D65F</generatorID>
+<ownerDesignName>modelo6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6 BYTE</dataTypeSize>
+<ownDataTypeParameters>6 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="f_creacion" id="AE8585A7-C19E-C0D3-757D-37714E395C7F">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-09-17 01:26:54 UTC</createdTime>
+<generatorID>5663C513-22F0-659C-246B-50A35A0CACE5</generatorID>
+<ownerDesignName>modelo6</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado_general" id="D1A0471A-85D8-6BD9-4722-8E4AE7497252">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-09-17 01:26:54 UTC</createdTime>
+<generatorID>75887543-8160-FEBB-2C88-D83B63D8DAAB</generatorID>
+<ownerDesignName>modelo6</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLIENTE_rut" id="843A22EA-8D28-86BE-42BA-E39E3B1302EE">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-09-17 01:26:54 UTC</createdTime>
+<generatorID>9096F8BC-FB58-157B-6946-ED6BEBE6FBB7</generatorID>
+<ownerDesignName>modelo6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="682D947E-A616-0845-D50B-E7B3E39D927C" referredColumn="16716E09-B55E-7B59-0CD9-5582A826C81D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DEDE89A6-5BC4-A116-DA0A-F7CBDB95BDB8" name="ORDEN_PK">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-09-17 01:26:54 UTC</createdTime>
+<generatorID>CC98C178-90D1-A127-D9EA-900D9C0D8A45</generatorID>
+<ownerDesignName>modelo6</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D52BE457-3C1F-8F2B-DF92-8FA3728188A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F3D12FD0-5EA8-F919-C1DD-FF6B58C1FBFD" name="ORDEN_CLIENTE_FK">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-09-17 01:26:54 UTC</createdTime>
+<generatorID>3DB5FB0B-A354-7A6A-78CA-1C24C6FE3CA4</generatorID>
+<ownerDesignName>modelo6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="843A22EA-8D28-86BE-42BA-E39E3B1302EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

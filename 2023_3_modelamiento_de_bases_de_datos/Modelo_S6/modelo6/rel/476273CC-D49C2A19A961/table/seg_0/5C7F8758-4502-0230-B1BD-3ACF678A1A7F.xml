@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5C7F8758-4502-0230-B1BD-3ACF678A1A7F" name="ORDEN_SEGUIMIENTO">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-09-17 01:26:54 UTC</createdTime>
+<generatorID>519EDBD4-D587-4531-B26C-0384A6962B90</generatorID>
+<ownerDesignName>modelo6</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ORDEN_cod_orden" id="5B6105D1-46A8-D418-7448-9C9A759D509D">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-09-17 01:26:54 UTC</createdTime>
+<generatorID>EE79F3F8-EF6C-49A8-E82A-821282680E2F</generatorID>
+<ownerDesignName>modelo6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="227AE209-6198-FD67-DD62-A2DBDE36BE91" referredColumn="D52BE457-3C1F-8F2B-DF92-8FA3728188A5"/>
+</associations>
+</Column>
+<Column name="SEGUIMIENTO_cod_seguimiento" id="63E8C664-677C-86FE-EDDF-555810F79475">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-09-17 01:26:54 UTC</createdTime>
+<generatorID>813A6576-C308-F8BE-B244-21AA656B4B97</generatorID>
+<ownerDesignName>modelo6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="661773EA-3669-65FD-C8C6-951F3CB93A75" referredColumn="3815FFB3-CDAB-512E-C5C6-8C3E3B1B6426"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="50AC444D-BA29-175E-FF61-CCC309EE9A61" name="ORDEN_SEGUIMIENTO_ORDEN_FK">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-09-17 01:26:54 UTC</createdTime>
+<generatorID>E2F8B295-521E-2C6E-7646-1A5A80DF6876</generatorID>
+<ownerDesignName>modelo6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B6105D1-46A8-D418-7448-9C9A759D509D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6809F8F5-23A4-5789-5040-CF3E306BBE91" name="ORDEN_SEGUIMIENTO_SEGUIMIENTO_FK">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-09-17 01:26:54 UTC</createdTime>
+<generatorID>1AE18DE5-9343-2F37-F8F9-B95421D8828C</generatorID>
+<ownerDesignName>modelo6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63E8C664-677C-86FE-EDDF-555810F79475"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

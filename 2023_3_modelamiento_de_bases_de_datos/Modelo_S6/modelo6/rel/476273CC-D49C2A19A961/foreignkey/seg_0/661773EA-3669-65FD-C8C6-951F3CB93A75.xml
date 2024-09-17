@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="661773EA-3669-65FD-C8C6-951F3CB93A75" containerWithKeyObject="5C7F8758-4502-0230-B1BD-3ACF678A1A7F" localFKIndex="6809F8F5-23A4-5789-5040-CF3E306BBE91" name="ORDEN_SEGUIMIENTO_SEGUIMIENTO_FK">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-09-17 01:26:54 UTC</createdTime>
+<generatorID>1AE18DE5-9343-2F37-F8F9-B95421D8828C</generatorID>
+<ownerDesignName>modelo6</ownerDesignName>
+<referredTableLongName>SEGUIMIENTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7114DA82-148E-FED5-23F3-C05E2E781615</referredTableID>
+<keyObject>E558991E-884D-A79F-751E-A4897A4159DC</keyObject>
+<referredKeyID>E558991E-884D-A79F-751E-A4897A4159DC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cod_seguimiento</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
