@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="618D7FA8-8F39-92FC-9BE4-331FDD7612EF" name="emp_empleado">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-01 03:43:13 UTC</createdTime>
+<generatorID>5F7D39FF-36B6-DF10-E13E-C4DFB579A39F</generatorID>
+<ownerDesignName>modelo_semana8</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="emp_id" id="108EFE9B-5EF8-04D3-6CB0-62705667963E">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-01 03:43:13 UTC</createdTime>
+<generatorID>771C8A09-B44E-124D-9DB9-4C9F0CEB01AB</generatorID>
+<ownerDesignName>modelo_semana8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="emp_cargo" id="5238728E-6142-27AB-7721-1B89E7DC5DC5">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-01 03:43:13 UTC</createdTime>
+<generatorID>97383AC2-E4D5-E360-AA71-DEC166978423</generatorID>
+<ownerDesignName>modelo_semana8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="emp_fechacontratacion" id="714BE0D5-057D-0EC1-590D-9F0C7A99107A">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-01 03:43:13 UTC</createdTime>
+<generatorID>7C362259-80A4-1807-2CA3-64F24EFB3463</generatorID>
+<ownerDesignName>modelo_semana8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="emp_sueldo" id="BE3CC953-8205-A819-13A0-E88890309DBD">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-01 03:43:13 UTC</createdTime>
+<generatorID>3C49AD9D-EB7F-F61D-9AC6-7E988224DCA1</generatorID>
+<ownerDesignName>modelo_semana8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="per_persona_per_id" id="D1978F9B-CE11-395B-88C3-E9D2DF8C1232">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-01 03:43:13 UTC</createdTime>
+<generatorID>E6F84DE9-C3CF-7C77-214E-B3EF908FCEAF</generatorID>
+<ownerDesignName>modelo_semana8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BFDF0FC9-CE92-5B1D-F970-991021CC8E73" referredColumn="EB3365B2-CBFC-D688-DD6C-A07B952C40BC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8C586D1B-BA5A-9BC9-CD08-D301A00DA1E5" name="emp_empleado_PK">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-01 03:43:13 UTC</createdTime>
+<generatorID>C484206E-48CA-29C5-EA70-9081DA3804C2</generatorID>
+<ownerDesignName>modelo_semana8</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="108EFE9B-5EF8-04D3-6CB0-62705667963E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D456F7EF-FF27-58AD-DA5C-804ADA9B484A" name="emp_empleado__IDX">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-01 03:43:13 UTC</createdTime>
+<ownerDesignName>modelo_semana8</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>9B36CE0D-325A-8394-5DDD-1FD991189DD5</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="D1978F9B-CE11-395B-88C3-E9D2DF8C1232"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E3CDA187-E763-0FCB-60C0-352A51F5DDBE" name="emp_empleado_per_persona_FK">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-01 03:43:13 UTC</createdTime>
+<generatorID>9B36CE0D-325A-8394-5DDD-1FD991189DD5</generatorID>
+<ownerDesignName>modelo_semana8</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1978F9B-CE11-395B-88C3-E9D2DF8C1232"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

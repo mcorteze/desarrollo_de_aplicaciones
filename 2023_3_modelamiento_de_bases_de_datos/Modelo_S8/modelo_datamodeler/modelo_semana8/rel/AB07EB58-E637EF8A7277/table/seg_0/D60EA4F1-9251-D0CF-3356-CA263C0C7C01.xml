@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D60EA4F1-9251-D0CF-3356-CA263C0C7C01" name="esc_escuela">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-01 03:43:13 UTC</createdTime>
+<generatorID>E872E05B-6D16-9752-8A82-E46B2E727214</generatorID>
+<ownerDesignName>modelo_semana8</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="esc_id" id="38C64AEE-4C9F-FC19-26DA-783B9FDC6F11">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-01 03:43:13 UTC</createdTime>
+<generatorID>46539F08-FA5E-0B50-A5E8-A56A77705DC4</generatorID>
+<ownerDesignName>modelo_semana8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="esc_nombre" id="876D368D-1EC8-068F-EE36-8121CC2E9342">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-01 03:43:13 UTC</createdTime>
+<generatorID>8377AA25-788A-F98E-DCE8-FBB4EB37AF2D</generatorID>
+<ownerDesignName>modelo_semana8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="esc_tipodeporte" id="A37BCA79-1827-0057-A2DD-D4C85D54DE97">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-01 03:43:13 UTC</createdTime>
+<generatorID>05302540-5856-2DF8-C95F-A768281FFD37</generatorID>
+<ownerDesignName>modelo_semana8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="esc_direccion" id="AC562AEC-8C3F-2741-AB3E-7FA2490085CC">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-01 03:43:13 UTC</createdTime>
+<generatorID>B1BB22E3-267C-8D3C-D56D-3BB8681B08F9</generatorID>
+<ownerDesignName>modelo_semana8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="esc_telefono" id="E3A90AA0-76C8-4996-21C3-EC9EEC5CE3B7">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-01 03:43:13 UTC</createdTime>
+<generatorID>E42407E6-C194-3732-E9AE-6CEEF4038D19</generatorID>
+<ownerDesignName>modelo_semana8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="esc_email" id="AC7C566B-8D96-3107-4D93-D003C5DE75C6">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-01 03:43:13 UTC</createdTime>
+<generatorID>222B5F32-28E5-0440-C627-0FD23B219CDC</generatorID>
+<ownerDesignName>modelo_semana8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="esc_fechafundacion" id="0084630F-C4AB-50A1-D387-2337FE37D22F">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-01 03:43:13 UTC</createdTime>
+<generatorID>9D761634-D37D-73C3-3AE2-90990B16ECC9</generatorID>
+<ownerDesignName>modelo_semana8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="reg_region_reg_id" id="8DFDD452-77D0-26FE-ECE8-EC1B0C39F4D4">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-01 03:43:13 UTC</createdTime>
+<generatorID>B8DF20CA-407A-57A2-A851-AD0268D8E919</generatorID>
+<ownerDesignName>modelo_semana8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AEDBABB4-A5EF-E766-1062-3C1B08530324" referredColumn="E5E411D6-5740-CAC7-592A-4D294EAD97DC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9352DB8E-C7A2-C69E-9BCC-A0551D9A2F38" name="esc_escuela_PK">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-01 03:43:13 UTC</createdTime>
+<generatorID>F1A0EF16-439B-2EE7-661F-0C987F0C374C</generatorID>
+<ownerDesignName>modelo_semana8</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38C64AEE-4C9F-FC19-26DA-783B9FDC6F11"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="38687500-DD5D-E908-B0C8-2B0E1E7B1CE6" name="esc_escuela_reg_region_FK">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-01 03:43:13 UTC</createdTime>
+<generatorID>A9539B35-2241-C092-A6A6-6F109A8263FF</generatorID>
+<ownerDesignName>modelo_semana8</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8DFDD452-77D0-26FE-ECE8-EC1B0C39F4D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

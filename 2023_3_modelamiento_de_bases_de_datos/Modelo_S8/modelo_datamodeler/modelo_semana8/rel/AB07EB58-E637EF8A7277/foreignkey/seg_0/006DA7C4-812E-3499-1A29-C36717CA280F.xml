@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="006DA7C4-812E-3499-1A29-C36717CA280F" containerWithKeyObject="E578747A-FAA5-52E7-4984-D46924B3CA88" localFKIndex="3A028891-B9AA-FB64-8845-20B146C936CB" name="cos_costo_esc_escuela_FK">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-01 03:43:13 UTC</createdTime>
+<generatorID>C9EA7CFC-46BF-CB28-712A-6F900A709C51</generatorID>
+<ownerDesignName>modelo_semana8</ownerDesignName>
+<referredTableLongName>esc_escuela</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D60EA4F1-9251-D0CF-3356-CA263C0C7C01</referredTableID>
+<keyObject>9352DB8E-C7A2-C69E-9BCC-A0551D9A2F38</keyObject>
+<referredKeyID>9352DB8E-C7A2-C69E-9BCC-A0551D9A2F38</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>esc_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

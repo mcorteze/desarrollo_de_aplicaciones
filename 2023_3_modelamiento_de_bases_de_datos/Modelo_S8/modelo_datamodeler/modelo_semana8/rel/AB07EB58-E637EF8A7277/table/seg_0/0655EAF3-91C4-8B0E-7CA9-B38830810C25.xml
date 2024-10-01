@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0655EAF3-91C4-8B0E-7CA9-B38830810C25" name="inv_inventario">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-01 03:43:13 UTC</createdTime>
+<generatorID>4FD2E6D6-6342-8ABB-AD4A-2029F4CE2A8D</generatorID>
+<ownerDesignName>modelo_semana8</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="inv_id" id="49BF2C32-E0A3-9E3C-2E1B-7EAEB6A822F2">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-01 03:43:13 UTC</createdTime>
+<generatorID>7CEC50C2-AC57-1277-FC11-FDF1A859F127</generatorID>
+<ownerDesignName>modelo_semana8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="inv_nombre" id="35E45124-D495-3D0A-32EB-5ED5AEBFAB18">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-01 03:43:13 UTC</createdTime>
+<generatorID>5ADAC683-4EF9-2AA8-9BC3-22036F0858FA</generatorID>
+<ownerDesignName>modelo_semana8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="inv_cantidad" id="1083C992-B3D7-FCC6-D29E-888C57C8618E">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-01 03:43:13 UTC</createdTime>
+<generatorID>651ED4D9-9A59-9AF2-08D8-A79482BC5E88</generatorID>
+<ownerDesignName>modelo_semana8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="inv_fechacompra" id="74E23903-13CB-B255-0FD4-C24E7340FD48">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-01 03:43:13 UTC</createdTime>
+<generatorID>6FAF9616-20B4-2B19-F508-46F2B86FC218</generatorID>
+<ownerDesignName>modelo_semana8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="esc_escuela_esc_id" id="CF8455D4-6E78-0A2E-E25B-B9DBCED83611">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-01 03:43:13 UTC</createdTime>
+<generatorID>2531D6A9-FD2A-2EF5-CA17-DCDB0FD0754A</generatorID>
+<ownerDesignName>modelo_semana8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="079CF1A4-7F0E-5081-4EAD-21E936650948" referredColumn="38C64AEE-4C9F-FC19-26DA-783B9FDC6F11"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BF5DEF7B-EDEC-0EEA-F2D4-00EF1730A7EE" name="inv_inventario_PK">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-01 03:43:13 UTC</createdTime>
+<generatorID>5D6999A8-AC9C-F591-DAEA-E81878C34522</generatorID>
+<ownerDesignName>modelo_semana8</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49BF2C32-E0A3-9E3C-2E1B-7EAEB6A822F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2555043A-54C5-3727-FDD3-A6F52D469682" name="inv_inventario_esc_escuela_FK">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-01 03:43:13 UTC</createdTime>
+<generatorID>8A616AE0-AF7E-2B60-CF25-07BBECDC294D</generatorID>
+<ownerDesignName>modelo_semana8</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF8455D4-6E78-0A2E-E25B-B9DBCED83611"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
