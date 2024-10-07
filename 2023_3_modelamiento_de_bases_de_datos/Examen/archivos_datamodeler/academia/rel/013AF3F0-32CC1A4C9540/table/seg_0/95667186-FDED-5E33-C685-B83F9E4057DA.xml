@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="95667186-FDED-5E33-C685-B83F9E4057DA" name="Turno">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-07 01:05:40 UTC</createdTime>
+<generatorID>2A1C3F49-4A16-83D8-9E24-D998B388A7C3</generatorID>
+<ownerDesignName>academia</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_turno" id="55B5BCB1-50EB-1AA4-FD3D-9362DAE106A8">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-07 01:05:40 UTC</createdTime>
+<generatorID>B60E41B2-1979-BA6D-840E-85A8C738D7E9</generatorID>
+<ownerDesignName>academia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="horario" id="F8A5D293-2EA1-39E3-7AC2-B7D8440CD715">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-07 01:05:40 UTC</createdTime>
+<generatorID>FD273D40-A310-03A7-655D-63BBCC484E99</generatorID>
+<ownerDesignName>academia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Academia_id_academia" id="B2557FEC-E72E-23B9-D136-7558F9F77057">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-07 01:05:40 UTC</createdTime>
+<generatorID>07CD8E1B-EB6E-82D0-3747-4A591A464FF8</generatorID>
+<ownerDesignName>academia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5AB7DC31-1E83-1487-F807-BB9204C82EE3" referredColumn="967E2BEE-BEA1-F615-FCFA-52C90D0009BE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4B985C99-32A7-025E-DDF9-E68790B57569" name="Turno_PK">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-07 01:05:40 UTC</createdTime>
+<generatorID>4745CA5A-8A66-77B3-0506-51EB8F91580F</generatorID>
+<ownerDesignName>academia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2557FEC-E72E-23B9-D136-7558F9F77057"/>
+<colUsage columnID="55B5BCB1-50EB-1AA4-FD3D-9362DAE106A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B029105C-455B-05B5-4569-CBAC38CA8449" name="Turno_Academia_FK">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-07 01:05:40 UTC</createdTime>
+<generatorID>19E2B49B-55E9-AC02-62FC-2744918303FF</generatorID>
+<ownerDesignName>academia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2557FEC-E72E-23B9-D136-7558F9F77057"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

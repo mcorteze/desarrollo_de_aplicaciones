@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="58F26FF4-DE99-0876-F3D9-CAB754772E84" name="Profesor">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-07 01:05:40 UTC</createdTime>
+<generatorID>C4641122-79D6-9CCF-4FD7-5237963A4A41</generatorID>
+<ownerDesignName>academia</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_profesor" id="8D6B1F5A-E72B-B510-4DB0-16E9E13E48B9">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-07 01:05:40 UTC</createdTime>
+<generatorID>3D35205F-9924-50A2-8417-78F36F31BFF0</generatorID>
+<ownerDesignName>academia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="7E64EF32-62C6-F18A-91F2-8DDAAC9D3089">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-07 01:05:40 UTC</createdTime>
+<generatorID>24A82234-9D69-E9CC-C910-021EBA5EB03B</generatorID>
+<ownerDesignName>academia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipocontratacion" id="9F07C993-D4D0-FB1B-6918-4CA8A2983416">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-07 01:05:40 UTC</createdTime>
+<generatorID>C3FD2264-387C-0CED-EC48-8550BE49B231</generatorID>
+<ownerDesignName>academia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sueldo" id="43111BC2-B107-BEB2-A22E-392B42F55B24">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-07 01:05:40 UTC</createdTime>
+<generatorID>77230DD2-0A6D-F384-540F-49703A9262FD</generatorID>
+<ownerDesignName>academia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7B49736D-5C40-4163-17AD-B3D147100A9A" name="Profesor_PK">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-07 01:05:40 UTC</createdTime>
+<generatorID>23C2AB03-FE40-C509-AC59-450F3521BD4C</generatorID>
+<ownerDesignName>academia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D6B1F5A-E72B-B510-4DB0-16E9E13E48B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

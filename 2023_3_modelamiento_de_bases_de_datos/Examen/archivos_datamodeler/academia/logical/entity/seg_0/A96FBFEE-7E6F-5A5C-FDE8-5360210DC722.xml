@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A96FBFEE-7E6F-5A5C-FDE8-5360210DC722" name="Academia">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-06 22:36:13 UTC</createdTime>
+<ownerDesignName>academia</ownerDesignName>
+<engineerTo>
+<item key="013AF3F0-F60C-E2D0-32F2-32CC1A4C9540" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_academia" id="5BD0EBDF-C72A-D2B9-6032-3772FE2AA30D">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-06 22:43:31 UTC</createdTime>
+<ownerDesignName>academia</ownerDesignName>
+<engineerTo>
+<item key="013AF3F0-F60C-E2D0-32F2-32CC1A4C9540" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="C22B4570-942B-38C7-1CAB-B364CDB14D5F">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-06 22:36:27 UTC</createdTime>
+<ownerDesignName>academia</ownerDesignName>
+<engineerTo>
+<item key="013AF3F0-F60C-E2D0-32F2-32CC1A4C9540" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo" id="AAFD87D4-3F25-EF36-D47D-151616525F2E">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-06 22:38:56 UTC</createdTime>
+<ownerDesignName>academia</ownerDesignName>
+<engineerTo>
+<item key="013AF3F0-F60C-E2D0-32F2-32CC1A4C9540" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="627FA28A-8AD5-12DC-BE3E-074A99697483">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-06 22:39:15 UTC</createdTime>
+<ownerDesignName>academia</ownerDesignName>
+<engineerTo>
+<item key="013AF3F0-F60C-E2D0-32F2-32CC1A4C9540" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut" id="A27ADFB0-EC61-AB0E-0C60-F17C82A68CE3">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-06 22:39:29 UTC</createdTime>
+<ownerDesignName>academia</ownerDesignName>
+<engineerTo>
+<item key="013AF3F0-F60C-E2D0-32F2-32CC1A4C9540" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="1012EF83-06EA-DA23-92C9-D649503A3DF5">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-06 22:40:57 UTC</createdTime>
+<ownerDesignName>academia</ownerDesignName>
+<engineerTo>
+<item key="013AF3F0-F60C-E2D0-32F2-32CC1A4C9540" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="correo" id="F08475EC-1F92-BD69-DFE8-7EC645AE3A67">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-06 22:42:20 UTC</createdTime>
+<ownerDesignName>academia</ownerDesignName>
+<engineerTo>
+<item key="013AF3F0-F60C-E2D0-32F2-32CC1A4C9540" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_municipio" id="3E514304-74AB-8FE8-283E-33A82F11A269">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-06 23:45:57 UTC</createdTime>
+<generatorID>7AD612A1-26CA-83AF-D735-5A5C5934BE7F</generatorID>
+<ownerDesignName>academia</ownerDesignName>
+<engineerTo>
+<item key="013AF3F0-F60C-E2D0-32F2-32CC1A4C9540" value="true"/>
+</engineerTo>
+<referedAttribute>34AF3546-0FF5-70D7-C02E-DD2FA49B112D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="475BCEB6-10B5-5DE8-640B-4EDB31AD77C3" name="Academia PK">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-06 22:44:08 UTC</createdTime>
+<ownerDesignName>academia</ownerDesignName>
+<engineerTo>
+<item key="013AF3F0-F60C-E2D0-32F2-32CC1A4C9540" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5BD0EBDF-C72A-D2B9-6032-3772FE2AA30D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FDBDD0AA-1AB8-7DDF-A5E6-1A8E53BC791E" name="Relation_1">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-07 01:05:40 UTC</createdTime>
+<ownerDesignName>academia</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Academia_id_academia" id="92564DE5-7577-062F-874B-4413EE205148">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-07 01:05:40 UTC</createdTime>
+<ownerDesignName>academia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1F7133CF-4D0C-4413-B560-0CA89BB19C4B" referredColumn="967E2BEE-BEA1-F615-FCFA-52C90D0009BE"/>
+</associations>
+</Column>
+<Column name="Profesor_id_profesor" id="7BE34061-5B17-2F05-1C53-03C40BB7E0CC">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-07 01:05:40 UTC</createdTime>
+<ownerDesignName>academia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CA03F244-8B89-B0B7-B620-ACEF03B97373" referredColumn="8D6B1F5A-E72B-B510-4DB0-16E9E13E48B9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F307E9CF-23E1-1481-B440-4B72FEA71612" name="Relation_1_PK">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-07 01:05:40 UTC</createdTime>
+<ownerDesignName>academia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="92564DE5-7577-062F-874B-4413EE205148"/>
+<colUsage columnID="7BE34061-5B17-2F05-1C53-03C40BB7E0CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E0B74AE3-E092-2F61-7380-EDFD49A2E799" name="Relation_1_Academia_FK">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-07 01:05:40 UTC</createdTime>
+<generatorID>1B29EE84-AB8E-59FB-4405-4EEDC82B66B6</generatorID>
+<ownerDesignName>academia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="92564DE5-7577-062F-874B-4413EE205148"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4EBD9F71-CA8C-7F9D-886B-810E20E7028D" name="Relation_1_Profesor_FK">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-07 01:05:40 UTC</createdTime>
+<generatorID>1B29EE84-AB8E-59FB-4405-4EEDC82B66B6</generatorID>
+<ownerDesignName>academia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7BE34061-5B17-2F05-1C53-03C40BB7E0CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

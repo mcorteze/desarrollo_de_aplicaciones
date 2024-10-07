@@ -1,0 +1,72 @@
+-- Poblado de la tabla Municipio
+INSERT INTO municipio (nombre, direccion)
+VALUES ('Municipio Las Lomas', 'Calle Falsa 123');
+INSERT INTO municipio (nombre, direccion)
+VALUES ('Municipio Villa del Mar', 'Avenida del Sol 456');
+INSERT INTO municipio (nombre, direccion)
+VALUES ('Municipio San Esteban', 'Pasaje Los Álamos 789');
+INSERT INTO municipio (nombre, direccion)
+VALUES ('Municipio La Esperanza', 'Camino Vecinal 1011');
+
+-- Poblado de la tabla Academia
+INSERT INTO academia (nombre, tipo, direccion, rut, telefono, correo, municipio_id_municipio)
+VALUES ('Academia Los Andes', 'Privada', 'Avenida Cordillera 100', '12345678-9', '987654321', 'contacto@academialosandes.cl', 1);
+INSERT INTO academia (nombre, tipo, direccion, rut, telefono, correo, municipio_id_municipio)
+VALUES ('Academia Valle del Maipo', 'Publica', 'Calle Central 200', '98765432-1', '123456789', 'info@valledelmaipo.cl', 2);
+INSERT INTO academia (nombre, tipo, direccion, rut, telefono, correo, municipio_id_municipio)
+VALUES ('Academia Arauco', 'Privada', 'Boulevard Independencia 300', '11223344-5', '112233445', 'admision@academiaarauco.cl', 3);
+INSERT INTO academia (nombre, tipo, direccion, rut, telefono, correo, municipio_id_municipio)
+VALUES ('Academia San Joaquín', 'Publica', 'Plaza Mayor 400', '55667788-0', '556677880', 'contacto@sanjoaquinacademia.cl', 4);
+
+-- Poblado de la tabla Profesor
+INSERT INTO profesor (nombre, tipocontratacion, sueldo)
+VALUES ('Charles Xavier', 'Tiempo Completo', 2500000);
+INSERT INTO profesor (nombre, tipocontratacion, sueldo)
+VALUES ('Profesor Oak', 'Medio Tiempo', 1800000);
+INSERT INTO profesor (nombre, tipocontratacion, sueldo)
+VALUES ('Severus Snape', 'Tiempo Completo', 2200000);
+INSERT INTO profesor (nombre, tipocontratacion, sueldo)
+VALUES ('Minerva McGonagall', 'Medio Tiempo', 2100000);
+
+-- Poblado de la tabla Turno
+-- Horarios en formato "1-2", "3-4", etc.
+INSERT INTO turno (horario, academia_id_academia)
+VALUES ('1-2', 1);
+INSERT INTO turno (horario, academia_id_academia)
+VALUES ('3-4', 2);
+INSERT INTO turno (horario, academia_id_academia)
+VALUES ('5-6', 3);
+INSERT INTO turno (horario, academia_id_academia)
+VALUES ('7-8', 4);
+
+-- Poblado de la tabla Relation_1 (Relación Academia - Profesor)
+INSERT INTO relation_1 (academia_id_academia, profesor_id_profesor)
+VALUES (1, 1); -- Academia Los Andes y Charles Xavier
+INSERT INTO relation_1 (academia_id_academia, profesor_id_profesor)
+VALUES (2, 2); -- Academia Valle del Maipo y Profesor Oak
+INSERT INTO relation_1 (academia_id_academia, profesor_id_profesor)
+VALUES (3, 3); -- Academia Arauco y Severus Snape
+INSERT INTO relation_1 (academia_id_academia, profesor_id_profesor)
+VALUES (4, 4); -- Academia San Joaquín y Minerva McGonagall
+
+-- Poblado de la tabla Relation_6 (Relación Profesor - Turno)
+-- Usando los ID de academia y profesor ya insertados
+INSERT INTO relation_6 (profesor_id_profesor, turno_academia_id_academia, turno_id_turno)
+VALUES (1, 1, 1); -- Charles Xavier, Academia Los Andes, Turno 1-2
+INSERT INTO relation_6 (profesor_id_profesor, turno_academia_id_academia, turno_id_turno)
+VALUES (2, 2, 2); -- Profesor Oak, Academia Valle del Maipo, Turno 3-4
+INSERT INTO relation_6 (profesor_id_profesor, turno_academia_id_academia, turno_id_turno)
+VALUES (3, 3, 3); -- Severus Snape, Academia Arauco, Turno 5-6
+INSERT INTO relation_6 (profesor_id_profesor, turno_academia_id_academia, turno_id_turno)
+VALUES (4, 4, 4); -- Minerva McGonagall, Academia San Joaquín, Turno 7-8
+
+-- Poblado de la tabla Formulario
+-- Asociando cada formulario a una academia y municipio
+INSERT INTO formulario (fecha_postulacion, cuenta_bancaria, titular, banco, academia_id_academia, municipio_id_municipio)
+VALUES (TO_DATE('2024-01-01', 'YYYY-MM-DD'), '1111111111', 'Titular 1', 'Banco Chile', 1, 1);
+INSERT INTO formulario (fecha_postulacion, cuenta_bancaria, titular, banco, academia_id_academia, municipio_id_municipio)
+VALUES (TO_DATE('2024-02-01', 'YYYY-MM-DD'), '2222222222', 'Titular 2', 'Banco Estado', 2, 2);
+INSERT INTO formulario (fecha_postulacion, cuenta_bancaria, titular, banco, academia_id_academia, municipio_id_municipio)
+VALUES (TO_DATE('2024-03-01', 'YYYY-MM-DD'), '3333333333', 'Titular 3', 'Banco Santander', 3, 3);
+INSERT INTO formulario (fecha_postulacion, cuenta_bancaria, titular, banco, academia_id_academia, municipio_id_municipio)
+VALUES (TO_DATE('2024-04-01', 'YYYY-MM-DD'), '4444444444', 'Titular 4', 'Banco BCI', 4, 4);

@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5D67A283-7082-5B9C-6369-C4925A80F0D6" name="Relation_6">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-07 01:05:40 UTC</createdTime>
+<ownerDesignName>academia</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Profesor_id_profesor" id="566FBE53-0111-D44F-3D3A-461C33076578">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-07 01:05:40 UTC</createdTime>
+<ownerDesignName>academia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C9232568-B59B-2039-032C-A84B4387EC71" referredColumn="8D6B1F5A-E72B-B510-4DB0-16E9E13E48B9"/>
+</associations>
+</Column>
+<Column name="Turno_Academia_id_academia" id="5B03682A-06FE-86DF-24D5-0D88C6818149">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-07 01:05:40 UTC</createdTime>
+<ownerDesignName>academia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C5AF7BD-6B0B-4B8D-BC1B-F3F1F757028C" referredColumn="B2557FEC-E72E-23B9-D136-7558F9F77057"/>
+</associations>
+</Column>
+<Column name="Turno_id_turno" id="DB5CE5BE-0F1D-933D-3563-8632770ED8CA">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-07 01:05:40 UTC</createdTime>
+<ownerDesignName>academia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C5AF7BD-6B0B-4B8D-BC1B-F3F1F757028C" referredColumn="55B5BCB1-50EB-1AA4-FD3D-9362DAE106A8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2DCEF01A-417C-C671-CBDA-0CA6A552C136" name="Relation_6_PK">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-07 01:05:40 UTC</createdTime>
+<ownerDesignName>academia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="566FBE53-0111-D44F-3D3A-461C33076578"/>
+<colUsage columnID="5B03682A-06FE-86DF-24D5-0D88C6818149"/>
+<colUsage columnID="DB5CE5BE-0F1D-933D-3563-8632770ED8CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4CB32994-9DBE-F8F2-D4BB-DF4A1194799C" name="Relation_6_Profesor_FK">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-07 01:05:40 UTC</createdTime>
+<generatorID>6D38B384-E46B-4A6C-04D8-8CEB9616222D</generatorID>
+<ownerDesignName>academia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="566FBE53-0111-D44F-3D3A-461C33076578"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ABC6D4F7-5932-BEB0-8D20-232234D47D96" name="Relation_6_Turno_FK">
+<createdBy>mcorteze</createdBy>
+<createdTime>2024-10-07 01:05:40 UTC</createdTime>
+<generatorID>6D38B384-E46B-4A6C-04D8-8CEB9616222D</generatorID>
+<ownerDesignName>academia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B03682A-06FE-86DF-24D5-0D88C6818149"/>
+<colUsage columnID="DB5CE5BE-0F1D-933D-3563-8632770ED8CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
